@@ -1,0 +1,65 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="BiologySoftware.testyourself1"
+	x:Name="Window"
+	Title="testyourself1"
+	Width="990.8" Height="776.5" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize" Icon="Icodens/tron.ico">
+
+	<ScrollViewer Margin="0,0,0,-2">
+
+		<Grid x:Name="LayoutRoot" ScrollViewer.HorizontalScrollBarVisibility="Visible" Height="783">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="0.254*"/>
+				<RowDefinition Height="0.746*"/>
+			</Grid.RowDefinitions>
+			<Grid.Background>
+				<RadialGradientBrush>
+					<GradientStop Color="#FF080845" Offset="0"/>
+					<GradientStop Color="Black" Offset="1"/>
+				</RadialGradientBrush>
+			</Grid.Background>
+			<TextBlock Height="41" Margin="26,20,166,0" TextWrapping="Wrap" Text="Chapter 1 Test Your Self" VerticalAlignment="Top" Foreground="White" FontFamily="Miriam Fixed" FontSize="24"/>
+			<TextBlock x:Name="answer1" Height="25" Margin="207,0,37,50.306" TextWrapping="Wrap" VerticalAlignment="Bottom" Foreground="#FF4EFF00" FontFamily="Miriam Fixed" FontSize="16"/>
+			<RadioButton x:Name="optiona" Content="A" HorizontalAlignment="Left" Height="23" Margin="53,0,0,14.44" VerticalAlignment="Bottom" Width="30" Foreground="White" Checked="optiona_Checked" Cursor="Pen"/>
+			<RadioButton x:Name="optionb" Content="B" Height="23" Margin="295,0,282,14.44" VerticalAlignment="Bottom" Foreground="White" Cursor="Pen" IsThreeState="True" Checked="optionb_Checked"/>
+			<RadioButton x:Name="optionc" Content="C" HorizontalAlignment="Left" Height="23" Margin="53,17,0,0" VerticalAlignment="Top" Width="30" Foreground="White" Cursor="Pen" IsThreeState="True" Grid.Row="1" Checked="optionc_Checked"/>
+			<RadioButton x:Name="optiond" Content="D" Height="23" Margin="295,17,282,0" VerticalAlignment="Top" Foreground="White" IsThreeState="True" Cursor="Pen" Grid.Row="1" Checked="optiond_Checked"/>
+			<TextBlock Margin="26,0,0,36" TextWrapping="Wrap" Text="1- The Flower is pink" Foreground="White" Height="39.306" VerticalAlignment="Bottom" FontSize="13.333" HorizontalAlignment="Left" Width="140.27"/>
+			<Label Content="Observation , qualitative" HorizontalAlignment="Left" Height="32" Margin="87,0,0,11.877" VerticalAlignment="Bottom" Width="194" FontSize="13.333" Foreground="White"/>
+			<Label Content="quantitative , observation" Height="32" Margin="333,0,334,11.877" VerticalAlignment="Bottom" FontSize="13.333" Foreground="White"/>
+			<Label Content="qualitative , inferences" HorizontalAlignment="Left" Height="32" Margin="87,11,0,0" VerticalAlignment="Top" Width="194" FontSize="13.333" Foreground="White" Grid.Row="1"/>
+			<Label Content="inferences , quantitative" Height="32" Margin="333,10.563,334,0" VerticalAlignment="Top" FontSize="13.333" Foreground="White" Grid.Row="1"/>
+			<TextBlock Margin="26,67.694,0,0" TextWrapping="Wrap" Text="2-Which one is the second step of scientific method?" Foreground="White" Height="39.306" VerticalAlignment="Top" FontSize="13.333" HorizontalAlignment="Left" Width="328.27" Grid.Row="1"/>
+			<RadioButton x:Name="optiona1" Content="A" HorizontalAlignment="Left" Height="23" Margin="53,126.56,0,0" VerticalAlignment="Top" Width="30" Foreground="White" Checked="optiona1_Checked" Cursor="Pen" Grid.Row="1"/>
+			<RadioButton x:Name="optionb1" Content="B" Height="23" Margin="295,126.56,282,0" VerticalAlignment="Top" Foreground="White" Cursor="Pen" IsThreeState="True" Checked="optionb1_Checked" Grid.Row="1"/>
+			<RadioButton x:Name="optionc1" Content="C" HorizontalAlignment="Left" Height="23" Margin="53,181,0,0" VerticalAlignment="Top" Width="30" Foreground="White" Cursor="Pen" IsThreeState="True" Grid.Row="1" Checked="optionc1_Checked"/>
+			<RadioButton x:Name="optiond1" Content="D" Height="23" Margin="295,181,282,0" VerticalAlignment="Top" Foreground="White" IsThreeState="True" Cursor="Pen" Grid.Row="1" Checked="optiond1_Checked"/>
+			<Label Content="Asking Question" HorizontalAlignment="Left" Height="32" Margin="87,120.123,0,0" VerticalAlignment="Top" Width="194" FontSize="13.333" Foreground="White" Grid.Row="1"/>
+			<Label Content="Drawing a conclusion" Height="32" Margin="333,120.123,334,0" VerticalAlignment="Top" FontSize="13.333" Foreground="White" Grid.Row="1"/>
+			<Label Content="setting up controlled experience" HorizontalAlignment="Left" Height="32" Margin="87,175,0,0" VerticalAlignment="Top" Width="204" FontSize="13.333" Foreground="White" Grid.Row="1"/>
+			<Label Content="Forming hypothesis" Height="32" Margin="333,175,334,0" VerticalAlignment="Top" FontSize="13.333" Foreground="White" Grid.Row="1"/>
+			<TextBlock x:Name="answer2" Height="25" Margin="358.27,67.694,41.73,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF4EFF00" FontFamily="Miriam Fixed" FontSize="16" Grid.Row="1"/>
+			<TextBlock Margin="26,221.694,0,0" TextWrapping="Wrap" Text="3-Unicellular is made of ....." Foreground="White" Height="39.306" VerticalAlignment="Top" FontSize="13.333" HorizontalAlignment="Left" Width="173.27" Grid.Row="1"/>
+			<RadioButton x:Name="optiona2" Content="A" HorizontalAlignment="Left" Margin="53,271.437,0,289.681" Width="30" Foreground="White" Checked="optiona2_Checked" Cursor="Pen" Grid.Row="1"/>
+			<RadioButton x:Name="optionb2" Content="B" Margin="295,271.437,282,289.681" Foreground="White" Cursor="Pen" IsThreeState="True" Checked="optionb2_Checked" Grid.Row="1"/>
+			<Label Content="One or more cells" HorizontalAlignment="Left" Margin="87,265,0,287.118" Width="194" FontSize="13.333" Foreground="White" Grid.Row="1"/>
+			<Label Content="one cell" Margin="333,265,334,287.118" FontSize="13.333" Foreground="White" Grid.Row="1"/>
+			<TextBlock x:Name="answer3" Height="25" Margin="252.27,221.694,144.73,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FF4EFF00" FontFamily="Miriam Fixed" FontSize="16" Grid.Row="1"/>
+			<TextBlock Margin="26,0,0,236.312" TextWrapping="Wrap" Text="4-The test group  is " Foreground="White" Height="39.306" VerticalAlignment="Bottom" FontSize="13.333" HorizontalAlignment="Left" Width="140.27" Grid.Row="1"/>
+			<TextBox x:Name="question4" HorizontalAlignment="Left" Height="25.618" Margin="166.27,0,0,247.882" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="188" Background="#0FFFFFFF" Foreground="White" MouseDoubleClick="question4_MouseDoubleClick"/>
+			<TextBlock Margin="372.5,0,0,250" TextWrapping="Wrap" Text="group ." Foreground="White" Height="25.618" VerticalAlignment="Bottom" FontSize="13.333" Grid.Row="1" HorizontalAlignment="Left" Width="50.27"/>
+			<TextBlock x:Name="answer4" Height="50.076" Margin="422.04,0,8,221.924" TextWrapping="Wrap" VerticalAlignment="Bottom" Foreground="#FF4EFF00" FontFamily="Miriam Fixed" FontSize="16" Grid.Row="1"/>
+			<TextBlock Margin="26,0,0,178.618" TextWrapping="Wrap" Text="5-What is the smallest thing in the world?" Foreground="White" Height="39.306" VerticalAlignment="Bottom" FontSize="13.333" HorizontalAlignment="Left" Width="328.27" Grid.Row="1"/>
+			<RadioButton x:Name="optiona3" Content="A" HorizontalAlignment="Left" Height="23" Margin="53,0,0,136.058" VerticalAlignment="Bottom" Width="30" Foreground="White" Checked="optiona3_Checked" Cursor="Pen" Grid.Row="1"/>
+			<RadioButton x:Name="optionb3" Content="B" Height="23" Margin="295,0,282,136.058" VerticalAlignment="Bottom" Foreground="White" Cursor="Pen" IsThreeState="True" Checked="optionb3_Checked" Grid.Row="1"/>
+			<RadioButton x:Name="optionc3" Content="C" HorizontalAlignment="Left" Height="23" Margin="53,0,0,81.618" VerticalAlignment="Bottom" Width="30" Foreground="White" Cursor="Pen" IsThreeState="True" Grid.Row="1" Checked="optionc3_Checked"/>
+			<RadioButton x:Name="optiond3" Content="D" Height="23" Margin="295,0,282,81.618" VerticalAlignment="Bottom" Foreground="White" IsThreeState="True" Cursor="Pen" Grid.Row="1" Checked="optiond3_Checked"/>
+			<Label Content="Cells" HorizontalAlignment="Left" Height="32" Margin="87,0,0,133.495" VerticalAlignment="Bottom" Width="194" FontSize="13.333" Foreground="White" Grid.Row="1"/>
+			<Label Content="Tissues" Height="32" Margin="333,0,334,133.495" VerticalAlignment="Bottom" FontSize="13.333" Foreground="White" Grid.Row="1"/>
+			<Label Content="Atoms" HorizontalAlignment="Left" Height="32" Margin="87,0,0,78.618" VerticalAlignment="Bottom" Width="204" FontSize="13.333" Foreground="White" Grid.Row="1"/>
+			<Label Content="Systems" Height="32" Margin="333,0,334,78.618" VerticalAlignment="Bottom" FontSize="13.333" Foreground="White" Grid.Row="1"/>
+			<TextBlock x:Name="answer5" Height="25" Margin="358.27,0,41.73,192.924" TextWrapping="Wrap" VerticalAlignment="Bottom" Foreground="#FF4EFF00" FontFamily="Miriam Fixed" FontSize="16" Grid.Row="1"/>
+		</Grid>
+	</ScrollViewer>
+</Window>

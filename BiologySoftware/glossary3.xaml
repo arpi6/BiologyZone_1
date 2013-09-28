@@ -1,0 +1,25 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="BiologySoftware.glossary3"
+	x:Name="Window"
+	Title="glossary3"
+	Width="834" Height="569" Icon="Icodens/tron.ico" ResizeMode="CanMinimize">
+
+	<Grid x:Name="LayoutRoot">
+		<Grid.Background>
+			<RadialGradientBrush>
+				<GradientStop Color="#FF010131" Offset="0"/>
+				<GradientStop Color="Black" Offset="1"/>
+			</RadialGradientBrush>
+		</Grid.Background>
+		<TextBox x:Name="txtsearch3" Height="36" Margin="191,112,139,0" TextWrapping="Wrap" VerticalAlignment="Top" Background="#0EFFFFFF" BorderBrush="White" CaretBrush="White" OpacityMask="White" Foreground="White" SpellCheck.IsEnabled="True"/>
+		<ScrollViewer Margin="191,213,139,31" >
+			<TextBox x:Name="txtdefinition3" TextWrapping="Wrap" Background="#08FFFFFF" Foreground="White" FontSize="16" FontFamily="Segoe UI" Height="297" Width="498"/>
+		</ScrollViewer>
+		<TextBlock HorizontalAlignment="Left" Height="27" Margin="22,112,0,0" TextWrapping="Wrap" Text="Key Word:" VerticalAlignment="Top" Width="116" Foreground="White" FontFamily="Miriam Fixed" FontSize="17.333" FontWeight="Bold"/>
+		<TextBlock HorizontalAlignment="Left" Height="27" Margin="22,192,0,0" TextWrapping="Wrap" Text="Definition:" VerticalAlignment="Top" Width="131" Foreground="White" FontFamily="Miriam Fixed" FontSize="17.333" FontWeight="Bold"/>
+		<TextBlock Height="52" Margin="209,24,153,0" TextWrapping="Wrap" Text="Biology Glossary " VerticalAlignment="Top" FontFamily="Miriam Fixed" FontSize="26.667" Foreground="White" FontWeight="Bold" TextAlignment="Center"/>
+		<Button x:Name="btnsearch3" Content="Search" Height="35" Margin="191,174,0,0" VerticalAlignment="Top" Cursor="Hand" Background="{x:Null}" Foreground="White" HorizontalAlignment="Left" Width="160" FontFamily="Miriam Fixed" FontSize="16" Click="btnsearch3_Click"/>
+	</Grid>
+</Window>

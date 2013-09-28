@@ -1,0 +1,48 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="BiologySoftware.model3"
+	x:Name="Window"
+	Title="model3"
+		Width="1143" Height="866" Icon="Icodens/tron.ico" ResizeMode="CanMinimize">
+	<Window.Background>
+		<RadialGradientBrush>
+			<GradientStop Color="#FF030060" Offset="0"/>
+			<GradientStop Color="#FF010018" Offset="1"/>
+		</RadialGradientBrush>
+	</Window.Background>
+
+	<ScrollViewer>
+
+		<Grid x:Name="LayoutRoot" Height="2024.1" Width="1110">
+			<Label Content="The Water Cycle. (Powered By Sun)" Height="38" Margin="272,20.5,275,0" VerticalAlignment="Top" FontFamily="Miriam Fixed" FontSize="26.667" Background="#00000000" Foreground="White"/>
+			<RichTextBox Margin="326,692.5,297,0" VerticalScrollBarVisibility="Visible" UseLayoutRounding="False" IsDocumentEnabled="True" Height="109.5" VerticalAlignment="Top" Background="#FFE4E4E4" FontSize="16">
+				<RichTextBox.BorderBrush>
+					<LinearGradientBrush EndPoint="0,20" MappingMode="Absolute" StartPoint="0,0">
+						<GradientStop Color="#FFABADB3" Offset="0.05"/>
+						<GradientStop Color="#FFE2E3EA" Offset="0.07"/>
+						<GradientStop Color="#55E3E9EF" Offset="1"/>
+					</LinearGradientBrush>
+				</RichTextBox.BorderBrush>
+				<FlowDocument AllowDrop="True">
+					<Paragraph><Run Text="After raining or snowing which is "/><Run Foreground="#FF910909" FontWeight="Bold" Text="precipitation"/><Run Text=" , some of water runoff into rivers , ocean and some of it observed by plants and drunk by animals. The sun evaporates  The water in rivers and ocean into sky. which called "/><Run Foreground="#FF680000" FontWeight="Bold" Text="evaporation"/><Run Text=" . The water observed by plants and animals evaporate too , which this step called "/><Run Foreground="#FF950000" FontWeight="Bold" Text="transpiration"/><Run Text=". and this evaporated waters  form clouds in sky which called "/><Run Foreground="Maroon" FontWeight="Bold" Text="condensation"/><Run Text=". "/></Paragraph>
+				</FlowDocument>
+			</RichTextBox>
+			<Image Margin="155,77,178,0" Source="WaterCycle-optimized.jpg" Stretch="Fill" Height="587" VerticalAlignment="Top"/>
+			<Image Margin="155,951,178,486.1" Source="ES  we40.jpg" Stretch="Fill"/>
+			<RichTextBox Margin="311,0,312,345.1" VerticalScrollBarVisibility="Visible" UseLayoutRounding="False" IsDocumentEnabled="True" Background="#FFE4E4E4" FontSize="16" Height="109.5" VerticalAlignment="Bottom">
+				<RichTextBox.BorderBrush>
+					<LinearGradientBrush EndPoint="0,20" MappingMode="Absolute" StartPoint="0,0">
+						<GradientStop Color="#FFABADB3" Offset="0.05"/>
+						<GradientStop Color="#FFE2E3EA" Offset="0.07"/>
+						<GradientStop Color="#55E3E9EF" Offset="1"/>
+					</LinearGradientBrush>
+				</RichTextBox.BorderBrush>
+				<FlowDocument AllowDrop="True">
+					<Paragraph><Run Text="In "/><Run Foreground="#FF7C0000" FontWeight="Bold" Text="Photosynthesis"/><Run Text="  Autotrophs use water, carbon dioxide and sun energy to produce Glucose, and oxygen. Then in "/><Run Foreground="#FF7C0000" FontWeight="Bold" Text="cellular respiration"/><Run Text=" all living things use glucose  , oxygen and produce carbon dioxide , water and ATP energy."/></Paragraph>
+				</FlowDocument>
+			</RichTextBox>
+			<Label Content="The Carbon Cycle Powered By Photosynthesis And Cellular Respiration" Height="38" Margin="272,873,275,0" VerticalAlignment="Top" FontFamily="Miriam Fixed" FontSize="26.667" Background="#00000000" Foreground="White"/>
+		</Grid>
+	</ScrollViewer>
+</Window>

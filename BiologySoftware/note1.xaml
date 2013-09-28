@@ -1,0 +1,88 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="BiologySoftware.note1"
+	x:Name="Window"
+	Title="note1"
+	Width="640" Height="480" Icon="Icodens/tron.ico" WindowState="Maximized">
+
+	<Grid x:Name="LayoutRoot">
+		<Grid.Background>
+			<RadialGradientBrush>
+				<GradientStop Color="#FF01012E" Offset="0"/>
+				<GradientStop Color="Black" Offset="1"/>
+			</RadialGradientBrush>
+		</Grid.Background>
+		<FlowDocumentReader x:Name="flowdocument1" RenderTransformOrigin="0.5,0.5" BorderBrush="White" Background="#FFC6C6C6" FontSize="13.333" FontStyle="Italic" IsManipulationEnabled="True">
+		<FlowDocument>
+			<FlowDocument.ContextMenu>
+				<ContextMenu/>
+			</FlowDocument.ContextMenu>
+		<Paragraph Foreground="White" FontSize="22"><Run Text="Chapter 1 The Science Of Biology"/></Paragraph>
+		<Paragraph Foreground="White" FontSize="18" FontStyle="Oblique"  ><Run Text="The steps of Scientific method"/></Paragraph>
+                <Paragraph Foreground="#FF36A8CE" FontSize="16" Name="P1" >
+                    <Run Text="1- Asking question:"/></Paragraph>
+					<Paragraph Foreground="White" FontSize="16" >
+                    <Run Text=" How do organism come into being?"/></Paragraph>
+					<Paragraph Foreground="#FF36A8CE" FontSize="16"  >
+                    <Run Text="2- Forming a hypothesis:"/></Paragraph>
+					<Paragraph Foreground="White" FontSize="16" >
+                    <Run Text=" spontaneous generation: Life could come from non-living matter (Traditional idea) Example: Maggats spontaneously appeared on meat."/></Paragraph>
+					<Paragraph Foreground="White" FontSize="16" >
+                    <Run Text=" biogenesis: Life come from only life (by Redi)  Example: Maggats come from eggs that flies laid on meat."/></Paragraph>
+					<Paragraph Foreground="#FF36A8CE" FontSize="16"  >
+                    <Run Text="3-Setting-up controled experiment:"/></Paragraph>
+					<Paragraph Foreground="White" FontSize="16" >
+                    <Run Text="A controled experiment needs group.   (A): Control Group: Group in which all conditions(variables) are kept the same (Controlled)."/></Paragraph>
+					<Paragraph Foreground="White" FontSize="16" >
+                    <Run Text="(B) Experimental Group: The test group in which all conditions(variables) are the same except the one being tested."/></Paragraph>
+					<Paragraph Foreground="#FF36A8CE" FontSize="16"  >
+                    <Run Text="4-Recording and analyzing results:"/></Paragraph>
+					<Paragraph Foreground="White" FontSize="16" >
+                    <Run Text="Scientists keep written records of their observations and data; sometimes drawing are used."/></Paragraph>
+					<Paragraph Foreground="#FF36A8CE" FontSize="16"  >
+                    <Run Text="5- Drawing a conclusion:"/></Paragraph>
+					<Paragraph Foreground="White" FontSize="16" >
+                    <Run Text="Scientists use observations and data to evaluate the hypothesis and draw a valid conclusion. Conclusions may or may not support hypothesis. Make new Hypothesis and do new experiments  if necessery."/></Paragraph>
+					<Paragraph Foreground="White" FontSize="18" FontStyle="Oblique"  ><Run Text="8 characteristics of living things"/></Paragraph>
+					<Paragraph Foreground="White" FontSize="16" >
+                    <Run Text="1- Living things are made up of units called cells: (unicellular, multicellular)."/></Paragraph>
+					<Paragraph Foreground="White" FontSize="16" >
+                    <Run Text="2- living things reproduce: Living things must reproduce to continue existance, because all living things die.(sexual reproduction, asexual reproduction)."/></Paragraph>
+					<Paragraph Foreground="White" FontSize="16" >
+                    <Run Text="3- Living things are based on a universal genetic code: DNA (The genetic code used by all organisms to store the complex information they need to live, grow and reproduce)."/></Paragraph>
+					<Paragraph Foreground="White" FontSize="16" >
+                    <Run Text="4- Living things grow and develop: (Growth , Development)."/></Paragraph>
+					<Paragraph Foreground="White" FontSize="16" >
+                    <Run Text="5- Living things obtain and use materials and energy: Metabolism(Combination of chemical reactions through which an organism builds up or breaks down materials)."/></Paragraph>
+					<Paragraph Foreground="White" FontSize="16" >
+                    <Run Text="6- living things respond to their environment: (stimulus , response)"/></Paragraph>
+					<Paragraph Foreground="White" FontSize="16" >
+                    <Run Text="7- Living things maintain a stable internal environment: Homeostasis(process of keeping conditions inside the body as constant as possible)."/></Paragraph>
+					<Paragraph Foreground="White" FontSize="16" >
+                    <Run Text="8- taken as group living things change over time: Evolve(Change over time)."/></Paragraph>
+					<Paragraph Foreground="White" FontSize="18" FontStyle="Oblique"  ><Run Text="levels of organixation of living things"/></Paragraph>
+					<Paragraph Foreground="White" FontSize="16" >
+                    <Run Text="10.Biospahre: Part of earth contains all ecosystems."/></Paragraph>
+					<Paragraph Foreground="White" FontSize="16" >
+                    <Run Text="9.Ecosystem: A community of living things + nonliving environment, such as water, soil, and air."/></Paragraph>
+					<Paragraph Foreground="White" FontSize="16" >
+                    <Run Text="8.Community: A population + other populations that live together in the same area."/></Paragraph>
+					<Paragraph Foreground="White" FontSize="16" >
+                    <Run Text="7.population: A group of similar individuals living in the same area."/></Paragraph>
+					<Paragraph Foreground="White" FontSize="16" >
+                    <Run Text="6.Organism: An individual with many systems."/></Paragraph>
+					<Paragraph Foreground="White" FontSize="16" >
+                    <Run Text="5.System: A group of organs working together for a specific function(Ex.Circulatory system)."/></Paragraph>
+					<Paragraph Foreground="White" FontSize="16" >
+                    <Run Text="4.Organ: a group of tissue working together for a specific function.(Ex.Hart)"/></Paragraph>
+					<Paragraph Foreground="White" FontSize="16" >
+                    <Run Text="3.Tissue: a group of cells working together for a specific function(ex.muscle tissue)."/></Paragraph>
+					<Paragraph Foreground="White" FontSize="16" >
+                    <Run Text="2.Cells: Basic unit of living things, very complicated."/></Paragraph>
+					<Paragraph Foreground="White" FontSize="16" >
+                    <Run Text="1.Atoms and Molecules: Smallest part of both living and nonliving things."/></Paragraph>
+		</FlowDocument>
+		</FlowDocumentReader>
+	</Grid>
+</Window>

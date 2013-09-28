@@ -1,0 +1,16 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="BiologySoftware.examples11"
+	x:Name="Window"
+	Title="examples11"
+	Width="843" Height="699" Icon="Icodens/tron.ico">
+
+	<ScrollViewer>
+
+		<Grid x:Name="LayoutRoot" Height="1790" Width="827">
+			<Image Height="850" Margin="64,0" Source="dihybrid cross.jpg" Stretch="Fill" VerticalAlignment="Top"/>
+			<Image Margin="64,0,64,49" Source="Monohybrid cross.jpg" Stretch="Fill" Height="842" VerticalAlignment="Bottom"/>
+		</Grid>
+	</ScrollViewer>
+</Window>
